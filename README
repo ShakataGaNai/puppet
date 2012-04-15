@@ -1,0 +1,26 @@
+== About ==
+This is a mostly-functional Puppet script repo.  Originally written by yours
+truly for use at different places of employment.  Scripts were based off of
+examples I found on the net, or my own personal needs.  Generally I avoided
+the big complex (and pre-written) modules I found online because I wanted to
+learn how to do it myself.  All of the scripts work (to my knowledge) but 
+again, may lack features or functionality of the larger modules you find
+elsewhere.
+
+If you're looking to learn how to Puppet script from the ground up, I hope
+my scripts help.  If you're looking for the most awesome pre-built, totally 
+complete solutions... please look elsewhere.
+
+== License ==
+I, Jon Davis, claim no copyright and release my code into the public domain
+using the CC0 license. For addition information please see the link below.
+
+http://creativecommons.org/publicdomain/zero/1.0/
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -1,0 +1,7 @@
+###
+# puppet:///files/resolve/resolve.server
+###
+
+domain MYCOMPANY.INTERNAL
+search MYCOMPANY.INTERNAL
+nameserver 127.0.0.1

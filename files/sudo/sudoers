@@ -1,0 +1,8 @@
+###
+# puppet:///files/sudo/sudoers
+###
+
+Defaults	env_reset
+root	ALL=(ALL:ALL) ALL
+%admin ALL=(ALL) ALL
+%sudo	ALL=(ALL:ALL) ALL

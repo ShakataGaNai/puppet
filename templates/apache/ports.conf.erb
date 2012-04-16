@@ -1,0 +1,10 @@
+###
+# puppet:///templates/apache/ports.conf.erb
+###
+
+NameVirtualHost *
+<% if has_variable?("apacheport") then %>
+Listen <%= apacheport %>
+<% else %>
+Listen 80
+<% end %>

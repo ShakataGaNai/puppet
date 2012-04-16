@@ -1,0 +1,26 @@
+###
+# puppet:///templates/apache/vhost.erb
+###
+
+
+## CONFIG for : <%= name %> 
+
+<Directory /var/websites/<%= name %>>
+	AllowOverride All
+	Options All
+</Directory>
+
+<VirtualHost *>
+	ServerAdmin webmaster@MYCOMPANY.COM
+	DocumentRoot /var/websites/<%= name %>
+	ServerName <%= name %>
+	ServerAlias *.<%= name %>
+<% aliases.each do |al| -%>
+	ServerAlias <%= al %>
+	ServerAlias *.<%= al %>
+<% end -%>
+	ErrorLog /var/log/apache2/<%= name %>-error.log
+	CustomLog /var/log/apache2/<%= name %>-access.log combined
+</VirtualHost>
+
+

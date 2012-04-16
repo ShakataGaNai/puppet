@@ -1,0 +1,8 @@
+###
+# puppet:///files/puppet/default.client
+###
+
+#Do not run daemon - run by cron
+START=no
+DAEMON_OPTS=""
+

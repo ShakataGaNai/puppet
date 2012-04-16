@@ -11,9 +11,17 @@ If you're looking to learn how to Puppet script from the ground up, I hope
 my scripts help.  If you're looking for the most awesome pre-built, totally 
 complete solutions... please look elsewhere.
 
+Please note: All of these scripts were written to target a uniform Ubuntu 
+11.10 (Oneiric Ocelot) server environment.  So all file locations will be
+Ubuntu specific (should handle anything within a few version of 11.10).
+All sample files includes (IE sshd_config) were copied from 11.10, generally
+with minimal editing.  I suggest you copy in your own files, but I've left
+these examples so you _could_ have a fully functional environment (but please 
+don't, for your own security/safety).
+
 == License ==
 I, Jon Davis, claim no copyright and release my code into the public domain
-using the CC0 license. For addition information please see the link below.
+using the CC0 license. For additional information please see the link below.
 
 http://creativecommons.org/publicdomain/zero/1.0/
 
@@ -24,3 +32,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+== Me ==
+Jon "ShakataGaNai" Davis
+Blog: http://snowulf.com
+Home: http://jondavis.name
